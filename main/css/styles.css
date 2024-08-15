@@ -10,7 +10,7 @@ body {
     transition: background-image 1s ease;
     background-attachment: fixed;
     background-size: cover; /* Ensures the background covers the entire area */
-    background-position: center; /* Centers the background image */
+    background-position: right; /* Centers the background image */
 }
 
 /* Glass Morphism Effect */
