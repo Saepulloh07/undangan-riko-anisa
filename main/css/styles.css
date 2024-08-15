@@ -177,11 +177,9 @@ section {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     body {
-        background-size: cover; /* Pastikan background tetap menutupi seluruh layar */
-        background-position: center; /* Tetap di tengah */
-        min-height: 100vh; /* Tinggi minimal 100% dari viewport */
-        margin: 0;
-        padding: 0;
+        background-size: cover; /* Ensure the background image covers the entire viewport */
+        background-position: center; /* Center the background image */
+        background-attachment: scroll; /* Change to scroll for better mobile experience */
     }
 }
     #music-toggle {
