@@ -9,8 +9,10 @@ body {
     overflow-x: hidden;
     transition: background-image 1s ease;
     background-attachment: fixed;
-    background-size: cover; /* Ensures the background covers the entire area */
-    background-position: center; /* Centers the background image */
+    background-size: cover; /* Menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar background */
+    min-height: 100vh; /* Pastikan body setinggi viewport */
+    background-repeat: no-repeat; /* Hindari pengulangan gambar */
 }
 
 /* Glass Morphism Effect */
@@ -175,9 +177,13 @@ section {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     body {
-        background-size: contain; /* Adjusts the background size for mobile */
-        background-position: top; /* Aligns the background image to the top */
+        background-size: cover; /* Pastikan background tetap menutupi seluruh layar */
+        background-position: center; /* Tetap di tengah */
+        min-height: 100vh; /* Tinggi minimal 100% dari viewport */
+        margin: 0;
+        padding: 0;
     }
+}
     #music-toggle {
         top: 10px;
         left: 10px;
