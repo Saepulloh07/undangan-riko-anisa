@@ -173,6 +173,15 @@ section {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+    body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+    transition: background-image 1s ease;
+    background-attachment: fixed;
+    background-size: cover;
+}
     #music-toggle {
         top: 10px;
         left: 10px;
