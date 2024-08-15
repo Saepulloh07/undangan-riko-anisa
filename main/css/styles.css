@@ -9,10 +9,8 @@ body {
     overflow-x: hidden;
     transition: background-image 1s ease;
     background-attachment: fixed;
-    background-size: cover; /* Menutupi seluruh area */
-    background-position: center; /* Memusatkan gambar background */
-    min-height: 100vh; /* Pastikan body setinggi viewport */
-    background-repeat: no-repeat; /* Hindari pengulangan gambar */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
 }
 
 /* Glass Morphism Effect */
