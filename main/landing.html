@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walimatul 'Ursy - Riko & Anisa</title>
+    <link rel="icon" href="./image/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source src="./music/song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="music-toggle" onclick="toggleMusic()">🔊</button>
+
+    <!-- Event Title Section -->
+    <section class="glass" data-bg="url('./image/bg-u-1.jpg')">
+        <h1 class="event-title">Walimatul 'Ursy</h1>
+        <img src="./image/couple-hugging-laughing-near-wall.png" alt="Decorative Image" class="decorative-img">
+        <h1 class="couple-name">Riko Oktaviano & Anisa Firdayanti</h1>
+        <p class="event-date">25 Agustus 2024, 14.00 WIB</p>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="glass countdown-section" data-bg="url('./image/bg-u-1.jpg')">
+        <img src="./image/calendar.png" alt="Decorative Image" class="decorative-img">
+        <h2>Countdown Acara</h2>
+        <div id="countdown"></div>
+        <h3>Alamat:</h3>
+        <p>Perumahan Limus Pratama Regency Jl. Kediri XI, Blok E 18 No 17 RT/RW 09/07 Bogor</p>
+        <div class="center-align">
+            <a href="https://www.google.com/maps/@-6.364094,106.9700543,3a,75y,187h,88.72t/data=!3m7!1e1!3m5!1sipsa7xg0Zxa0YbQB1b42YA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.2800000000000011%26panoid%3Dipsa7xg0Zxa0YbQB1b42YA%26yaw%3D187!7i16384!8i8192?coh=205410&entry=ttu" target="_blank" class="map-link">Lihat Lokasi di Google Maps</a>
+        </div>
+    </section>
+
+
+    <!-- Quranic Verse Section -->
+    <section class="glass quranic-verse-section" data-bg="url('./image/bg-u-1.jpg')">
+        <h2>Ayat Suci Al-Qur'an</h2>
+        <p class="arabic">وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَـٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ</p>
+        <p class="translation">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir." - (Ar-Rum 21)</p>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="glass rsvp-section" data-bg="url('./image/bg-u-1.jpg')">
+        <img src="./image/amplop.png" alt="Decorative Image" class="decorative-img">
+        <h3>RSVP</h3>
+        <form id="rsvp-form">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="tel" id="contact" placeholder="Kontak" required>
+            <select id="attendance" required>
+                <option value="yes">Hadir</option>
+                <option value="no">Tidak Hadir</option>
+                <option value="maybe">Mungkin, belum pasti</option>
+            </select>
+            <input type="number" id="guests" placeholder="Jumlah Orang" required>
+            <button type="submit">Kirim</button>
+        </form>
+        <p>Kontak: 082114330960 <br> rikarahmad@gmail.com</p>
+    </section>
+
+    <!-- Guest Greetings Section -->
+    <section class="glass greetings-section" data-bg="url('./image/bg-u-1.jpg')">
+        <img src="./image/d-01.png" alt="Decorative Image" class="decorative-img">
+        <h3>Ucapan Salam</h3>
+        <form id="greetings-form">
+            <input type="text" id="guest-name" placeholder="Nama" required>
+            <textarea id="message" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Guest Greetings Display Section -->
+<section class="glass display-greetings-section" data-bg="url('./image/bg-u-1.jpg')">
+    <h2>Ucapan dari Tamu</h2>
+    <div id="greetings-display"></div>
+</section>
+
+<footer class="glass-footer">
+    &copy; 2024 All rights reserved. <br> Saepulloh | saepulloh.works@gmail.com
+</footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

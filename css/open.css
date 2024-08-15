@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ebc080;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-open {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #ffefcb;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-open:hover {
+    background-color: #ffd399;
+}
+
+.btn-open i {
+    margin-right: 10px;
+}
+
+.btn-open:focus {
+    outline: none;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .btn-open {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-open {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    .content {
+        width: 90%;
+        padding: 15px;
+    }
+}
