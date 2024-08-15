@@ -9,7 +9,8 @@ body {
     overflow-x: hidden;
     transition: background-image 1s ease;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
 }
 
 /* Glass Morphism Effect */
@@ -174,14 +175,9 @@ section {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    overflow-x: hidden;
-    transition: background-image 1s ease;
-    background-attachment: fixed;
-    background-size: cover;
-}
+        background-size: contain; /* Adjusts the background size for mobile */
+        background-position: top; /* Aligns the background image to the top */
+    }
     #music-toggle {
         top: 10px;
         left: 10px;
