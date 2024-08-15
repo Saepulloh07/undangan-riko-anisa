@@ -177,7 +177,7 @@ section {
     body {
         background-image: url('./image/bg-u-1.jpg');
         background-size: cover; /* Ensure the background covers the entire viewport */
-        background-position: right center; /* Positions the background to the right and vertically centers it */
+        background-position: left center; /* Positions the background to the right and vertically centers it */
         min-height: 100vh; /* Minimum height 100% of the viewport */
         margin: 0;
         padding: 0;
