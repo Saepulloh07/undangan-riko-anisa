@@ -176,12 +176,13 @@ section {
 @media screen and (max-width: 768px) {
     body {
         background-image: url('./image/bg-u-1.jpg');
-        background-size: cover; /* Pastikan background tetap menutupi seluruh layar */
-        background-position: right; /* Tetap di tengah */
-        min-height: 100vh; /* Tinggi minimal 100% dari viewport */
+        background-size: cover; /* Ensure the background covers the entire viewport */
+        background-position: right center; /* Positions the background to the right and vertically centers it */
+        min-height: 100vh; /* Minimum height 100% of the viewport */
         margin: 0;
         padding: 0;
     }
+}
 }
     #music-toggle {
         top: 10px;
