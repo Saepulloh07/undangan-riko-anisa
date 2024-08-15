@@ -175,6 +175,7 @@ section {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     body {
+        background-image: url('./image/bg-um-1.jpg');
         background-size: cover; /* Pastikan background tetap menutupi seluruh layar */
         background-position: center; /* Tetap di tengah */
         min-height: 100vh; /* Tinggi minimal 100% dari viewport */
