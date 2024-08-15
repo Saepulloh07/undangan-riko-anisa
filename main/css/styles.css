@@ -94,6 +94,25 @@ body {
     text-align: center;
 }
 
+.quranic-verse-section .parent-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quranic-verse-section .parent-info p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.quranic-verse-section .parent-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.quranic-verse-section .parent-info a:hover {
+    text-decoration: underline;
+}
+
 /* RSVP & Greetings Form Styles */
 form {
     display: flex;
